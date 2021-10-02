@@ -367,11 +367,13 @@ var Mics = map[string]string{
 
 var Rooms = map[string]string{
 	"Amp Closet":   "Amp Closet",
+	"Bathroom":     "Bathroom",
 	"Garage":       "Garage",
 	"Hall":         "Hall",
 	"Large Studio": "Large Studio",
 	"Mid Studio":   "Mid Studio",
 	"Small Studio": "Small Studio",
+	"Subway":       "Subway",
 }
 
 var FX = map[string]string{
