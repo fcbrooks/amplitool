@@ -7,14 +7,8 @@ Or better still, use git to version control your presets.**
 
 ## Possible Uses for Amplitool
 
-- Copying, moving, or deleting a single preset is simple in the Amplitube interface,
-  but, if you have a large number of presets to copy, move, or delete, this becomes time-consuming.
-  Use Amplitool to perform bulk copy, move, or delete operations on multiple presets
-  at the same time.
-- When you add a piece of gear to a preset in Amplitube, it always has the default settings.  If you
-  have another preset with the piece of gear already configured the way you like it, you can use the Amplitool
-  copy gear (cpg) command to copy the already configured piece of gear into the 
-  new preset.
+- Perform bulk copy, move, or delete operations on presets
+- Copy a piece of gear pre-configured with your favorite settings from one preset to one or more other presets
 
 ## Build
 
