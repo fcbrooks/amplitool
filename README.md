@@ -1,6 +1,6 @@
 # AmpliTool
 
-Command line tool for manipulating Amplitube 5 Presets.
+Command line tool for manipulating IK Multimedia Amplitube 5 Presets.
 
 **Make sure to backup your Amplitube Profile directory before using Amplitool.
 Or better still, use git to version control your presets.**
