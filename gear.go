@@ -379,7 +379,6 @@ var Rooms = map[string]string{
 var FX = map[string]string{
 	// Pedals
 	// Delay
-	"ad9d0a70-7a59-4fef-ace5-c592764e3749": "'63 Reverb",
 	"b756e0c1-7685-4b38-bccc-b74c7febd868": "Analog Delay",
 	"e11b1dc5-1f7d-42ad-af30-0539b3646b3c": "Delay",
 	"48e7b721-d57a-4c34-813b-95d8091d5eda": "EchoMan",
@@ -390,6 +389,7 @@ var FX = map[string]string{
 	"96b57f95-4380-444a-8c0a-fbcc9bef1dd9": "TapDelay",
 	"8bbfc5b9-bf29-4a55-8211-ca21dcfda8bf": "Tape Echo",
 	// Distortion
+	"d36a32bf-200c-4906-93b9-0aa91cd1f579": "AmpLess",
 	"58dbec22-58e0-464c-8c04-91fb9d9973e2": "BigPig",
 	"305c9b6b-04cf-4673-b58a-e62afb4fefcb": "Crusher",
 	"5e65abef-82eb-4995-b911-d5eca4f8291e": "Diode Overdrive",
@@ -408,6 +408,7 @@ var FX = map[string]string{
 	"9b672f82-2832-4134-8db7-5cb9147c69a3": "PRODrive",
 	"1d665fde-1a62-42a1-be6d-bad9bbe5df3d": "SVX-OD",
 	"c8b142b0-4480-4d79-bc5c-f0232440ce05": "The Ambass'dor",
+	"dbeca376-df39-45c1-b63e-3ee55b747b00": "VariDiode+",
 	// Dynamics
 	"77f0f320-cc4e-44be-9ffe-2f0b679434ae": "Booster",
 	"5478981b-b18a-469f-81e7-a3e228cc9d50": "Compressor",
@@ -415,7 +416,9 @@ var FX = map[string]string{
 	"f5edced9-6dfc-4851-8651-f81f5423d210": "Fender Compressor",
 	"d3e05ec0-2c7b-498a-adc0-b263e853ad30": "Gate",
 	"0455f997-43ca-4c9b-9269-286a19d10d48": "Noise Gate",
+	"97c9c8d9-2f26-4126-98f7-64fbc60765ca": "Red Special",
 	"8a24aa96-f0ae-4e1c-a534-6671e245a690": "SVX Compressor",
+	"382fd7fe-b60f-440b-aed8-3dae6e9e94c6": "Treble Booster",
 	// EQ
 	"8d7ff76e-9273-46b6-95d5-3d7bd667fff2": "7 Band Graphic",
 	"babadeaf-9c28-4641-8fa9-d7366a3238a2": "10 Band Graphic",
@@ -427,11 +430,14 @@ var FX = map[string]string{
 	"75f96017-8a09-41fd-9979-75bf8bf81645": "Fender Wah",
 	"a58d91b0-d7c5-4d3d-8a9a-5c8b75335502": "Fuzz Wah",
 	"390c602d-5834-417d-bf0c-cafe544c5869": "LFO Filter",
+	"23c22c20-42ec-472f-84cf-2ae6b20f6f3b": "May Wah",
 	"0332d916-2ab2-4b7d-98c4-73a80a42b3b1": "Nu-Tron III",
 	"327d6d53-b6cb-4d33-bdaf-620fb52c20ec": "Rezo",
+	"590df33c-23a6-4d35-bd49-b5b589ffd248": "Star Gate",
 	"25425c78-31db-48f4-ad57-09f41e0e1291": "Step Filter",
 	"2de5239a-78d6-4a01-82e6-2ea3afb60501": "Wah 10",
 	"bc86a019-ffd5-4b71-8bfe-5913e3d58d7c": "Wah 46",
+	"02cd5797-10d8-4ffa-b4f4-438b93028941": "Wah 47",
 	"6482748e-9382-4ad6-b284-5c29ee50f2d7": "Wah",
 	"88863a3a-cfe3-4e86-b735-1303c511bf5f": "WahDist",
 	// Fuzz
@@ -449,6 +455,7 @@ var FX = map[string]string{
 	"2a9ef349-fb29-4e66-99a9-cc66d10192cc": "Chorus-1",
 	"8a878202-9126-4d20-8e73-374e178312f4": "Electric Flanger",
 	"7ccf016f-e540-4e46-a124-8f19ce5ab2b1": "Flanger",
+	"92605dfc-4716-49ef-944f-fd8c86d76bb2": "Fox Phaser",
 	"4e4d82f9-224a-4ffb-9994-97ef8285c315": "Metal Flanger",
 	"b1ad4a5d-1ad2-4b32-8532-945b869409e3": "Nirvana",
 	"50378f09-a919-4dee-9bbe-c242403a52a2": "Opto Tremolo",
@@ -462,6 +469,8 @@ var FX = map[string]string{
 	"187eb9ab-7ae6-4797-954b-079de09e26bb": "Tremolo",
 	"a6d48956-a0e5-4d63-9c22-b5b38604d2a5": "Uni-V",
 	"5f3947b1-6a09-4570-9f9c-1cc53a7fd88f": "X-Chorus",
+	// Reverb
+	"ad9d0a70-7a59-4fef-ace5-c592764e3749": "'63 Reverb",
 	// Other
 	"71fe6e6d-5879-42a7-9a31-6093ecee2a1c": "Acoustic Sim",
 	"01776ae8-8442-4633-b5f7-6bfdaf423ccb": "Fender Volume",
