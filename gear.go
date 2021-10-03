@@ -110,6 +110,7 @@ var Amps = map[string]string{
 
 var Cabs = map[string]string{
 	// 1x6
+	"2a7c02cf-d725-4168-9d9c-b804a3cf0ffb": "1X6 BM DK",
 	"4b4c561b-68d7-4311-ae31-2432817850bd": "Champion 600",
 	// 1x8
 	"36ca806c-5136-4370-baa4-ce45b3c1c9af": "1x8 '57 Custom Champ",
@@ -119,6 +120,8 @@ var Cabs = map[string]string{
 	"06834dae-1774-4a8a-9ff0-e8a1f05b4ae5": "Pro Junior",
 	// 1x12
 	"7efbb008-6942-4538-875b-d65fc7321617": "1x12 '57 Custom Deluxe",
+	"72b72d5c-a977-4921-8ed9-d342ddfe964d": "1X12 BM 30 Blue",
+	"85d85251-4cb2-4ade-b04c-9c6e150e41d7": "1X12 BM 30 H70",
 	"9644a358-408c-4b1e-9948-806e19e076f3": "1x12 Combo",
 	"82409e48-b67c-4762-8256-963f43240ccc": "1x12 Mark III",
 	"8c6c0893-9f50-492c-ac1d-4773fd697638": "1x12 Mark IV",
@@ -179,7 +182,7 @@ var Cabs = map[string]string{
 	"fad46e0e-3760-484f-9f7b-85f0376780ef": "SVX-410B",
 	"1052d32a-7bd7-4463-98c0-b9cc18a000be": "SVX-410S",
 	// 4x12
-	"936efc52-2172-4faf-9be5-e8f45244a2b9": "4x12 196BV SL",
+	"936efc52-2172-4faf-9be5-e8f45244a2b9": "4x12 1960BV SL",
 	"c97bc69c-c02d-4cce-b19d-859b72833550": "4x12 1960AV SL",
 	"cd231131-d053-4193-bd88-7bbd14144680": "4x12 Brit 30",
 	"7c0b8ce1-cbb4-4e5b-9973-a572143ddb2b": "4x12 Brit 8000",
@@ -201,6 +204,7 @@ var Cabs = map[string]string{
 	"81866d8a-1072-4bcd-adce-861f842f4e5c": "4x12 Vintage M 1",
 	"8eaae0e6-4c9b-471e-814b-6a4596a4d153": "E 412 PRO XXL",
 	"088fe7ff-34f6-4a64-9a7c-0f938f05553d": "E 412 Standard",
+	"bd7bff67-d9c8-472a-95f7-54ba61e1441c": "MH-412SL",
 	// 8x10
 	"fb54d283-dfc2-402e-8c76-87713387d770": "8x10  OBC 810",
 	"b3900806-4600-4cc0-a2f2-217b9ec09c5f": "Bass 810 Pro",
@@ -208,6 +212,11 @@ var Cabs = map[string]string{
 	"b11418d6-9a01-42a9-a85b-cd287ac7a98e": "SVX-810E",
 	// Other
 	"846d771b-3037-4d47-90c7-30e33e32af6f": "122",
+	"09baf8f5-28ab-4ff9-aa9e-871bde32e4b7": "122A",
+	"9edd8e4c-c515-4f9e-8009-54b742bb2ab2": "147",
+	"8af34f84-74ea-456e-b930-ba51d4d439c4": "3300W",
+	"800668a2-d6b6-4a4b-9cf7-f599c54ca364": "G37",
+	"6ea5141d-9c8d-4ecd-be53-c472a1d7af41": "Studio 12",
 	"c275ee33-8180-4b0c-9215-dd6f37aa2394": "Vibratone",
 }
 
